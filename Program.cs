@@ -305,12 +305,32 @@
 
 
 
-DateTime dt = DateTime.Now;
+// DateTime dt = DateTime.Now;
 // Console.WriteLine("{0:d}" , dt);
 // Console.WriteLine("{0:f}" , dt);
 // Console.WriteLine("{0:F}" , dt);
 // Console.WriteLine("{0:g}" , dt);
 // Console.WriteLine("{0:d} {1:D}" , dt , dt);
 // Console.WriteLine("{0:yyy}" , dt);
-Console.WriteLine("{0:dd/MM/yyyy}" , dt);
-Console.ReadLine();
+// Console.WriteLine("{0:dd/MM/yyyy}" , dt);
+// Console.ReadLine();
+
+
+
+
+
+
+
+
+
+class Program
+{
+    
+    public const string company_name  = "My company";
+
+    static void Main (string [] args)
+    {
+        Console.WriteLine(company_name);
+        Console.ReadLine();
+    }
+}
