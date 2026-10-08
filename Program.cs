@@ -371,7 +371,9 @@ class Program
         int a = 20;
         int b = 30;
 
-        bool c = a <= b;
+        // bool c = a <= b;
+        // bool c = a == b;
+        bool c = a >= b;
 
         Console.WriteLine(c);
         
