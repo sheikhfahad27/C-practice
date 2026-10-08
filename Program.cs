@@ -373,7 +373,9 @@ class Program
 
         // bool c = a <= b;
         // bool c = a == b;
-        bool c = a >= b;
+        // bool c = a >= b;
+        bool c = a != b;
+        
 
         Console.WriteLine(c);
         
