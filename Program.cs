@@ -368,13 +368,14 @@ class Program
 
     static void Main (string [] args)
     {
-        int a = 20;
+        int a = 30;
         int b = 30;
 
         // bool c = a <= b;
         // bool c = a == b;
+        // bool c = a != b;
         // bool c = a >= b;
-        bool c = a != b;
+        bool c = a <= b;
         
 
         Console.WriteLine(c);
