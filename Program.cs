@@ -323,14 +323,40 @@
 
 
 
+// class Program
+// {
+    
+//     public const string company_name  = "My company";
+
+//     static void Main (string [] args)
+//     {
+//         Console.WriteLine(company_name);
+//         Console.ReadLine();
+//     }
+// }
+
+
+
 class Program
 {
     
-    public const string company_name  = "My company";
+
 
     static void Main (string [] args)
     {
-        Console.WriteLine(company_name);
+       int a = 10 , b = 5 , c , d , e ,f ,g;
+    c = a + b;
+    d = a - b;
+    e = a * b;
+    f = a / b;
+
+        Console.WriteLine(c);
+        Console.WriteLine(d);
+        Console.WriteLine(e);
+        Console.WriteLine(f);
+
         Console.ReadLine();
     }
 }
+
+
