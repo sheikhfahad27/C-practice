@@ -375,13 +375,13 @@ class Program
         // bool c = a == b;
         // bool c = a != b;
         bool c = a != b;
-        bool d = a <= b;
-        bool e = a == b;
+        // bool d = a <= b;
+        // bool e = a == b;
         
 
         Console.WriteLine(c);
-        Console.WriteLine(d);
-        Console.WriteLine(e);
+        // Console.WriteLine(d);
+        // Console.WriteLine(e);
         
 
         Console.ReadLine();
