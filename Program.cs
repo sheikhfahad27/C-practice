@@ -395,7 +395,7 @@
 
 
 //AND Operator (&&)//
-
+// OR Operator (||)//
 
 class Program
 {
@@ -405,11 +405,12 @@ class Program
         int a = 40;
         int b = 30;
 
-        bool c = (a > b) && (a > b);
+        bool c = (a > b) && (a < b);
+        bool d = (a > b) || (a < b);
 
        
         Console.WriteLine(c);
-        // Console.WriteLine(e);
+        Console.WriteLine(d);
         
 
         Console.ReadLine();
