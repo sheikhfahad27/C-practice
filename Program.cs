@@ -412,7 +412,7 @@ class Program
         // bool d = (a > b) || (a < b);
        
         Console.WriteLine(c);
-        Console.WriteLine(d);
+        // Console.WriteLine(d);
         
 
         Console.ReadLine();
