@@ -397,26 +397,54 @@
 //AND Operator (&&)//
 // OR Operator (||)//
 
+// class Program
+// {
+
+//     static void Main (string [] args)
+//     {
+//         int a = 40;
+//         int b = 30;
+
+//         // bool c = (a > b) && (a < b);
+//         // bool d = (a > b) || (a < b);
+
+//         // bool c = (a > b) && (a > b);
+//         // bool d = (a > b) || (a < b);
+
+//          bool c = (a < b) && (a < b);
+//         bool d = (a > b) || (a > b);
+       
+//         Console.WriteLine(c);
+//         Console.WriteLine(d);
+        
+
+//         Console.ReadLine();
+//     }
+// }
+
+
+
+
+
+
+
 class Program
 {
 
     static void Main (string [] args)
     {
-        int a = 40;
-        int b = 30;
+       int a = 10 , b = 5 , c , d , e ,f ,g;
+    c = a + b;
+    d = a - b;
+    e = a * b;
+    f = a / b;
+    g = a % b;
 
-        // bool c = (a > b) && (a < b);
-        // bool d = (a > b) || (a < b);
-
-        // bool c = (a > b) && (a > b);
-        // bool d = (a > b) || (a < b);
-
-         bool c = (a < b) && (a < b);
-        bool d = (a > b) || (a > b);
-       
         Console.WriteLine(c);
         Console.WriteLine(d);
-        
+        Console.WriteLine(e);
+        Console.WriteLine(f);
+        Console.WriteLine(g);
 
         Console.ReadLine();
     }
