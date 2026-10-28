@@ -363,30 +363,30 @@
 
 
 
-// class Program
-// {
+class Program
+{
 
-//     static void Main (string [] args)
-//     {
-//         int a = 30;
-//         int b = 20;
+    static void Main (string [] args)
+    {
+        int a = 30;
+        int b = 20;
 
-//         // bool c = a <= b;
-//         // bool c = a == b;
-//         // bool c = a != b;
-//         bool c = a != b;
-//         // bool d = a <= b;
-//         // bool e = a == b;
+        // bool c = a <= b;
+        // bool c = a == b;
+        // bool c = a != b;
+        bool c = a != b;
+        // bool d = a <= b;
+        // bool e = a == b;
         
 
-//         Console.WriteLine(c);
-//         // Console.WriteLine(d);
-//         // Console.WriteLine(e);
+        Console.WriteLine(c);
+        // Console.WriteLine(d);
+        // Console.WriteLine(e);
         
 
-//         Console.ReadLine();
-//     }
-// }
+        Console.ReadLine();
+    }
+}
 
 
 
@@ -397,27 +397,27 @@
 //AND Operator (&&)//
 // OR Operator (||)//
 
-class Program
-{
+// class Program
+// {
 
-    static void Main (string [] args)
-    {
-        int a = 40;
-        int b = 30;
+//     static void Main (string [] args)
+//     {
+//         int a = 40;
+//         int b = 30;
 
-        // bool c = (a > b) && (a < b);
-        // bool d = (a > b) || (a < b);
+//         // bool c = (a > b) && (a < b);
+//         // bool d = (a > b) || (a < b);
 
-        // bool c = (a > b) && (a > b);
-        // bool d = (a > b) || (a < b);
+//         // bool c = (a > b) && (a > b);
+//         // bool d = (a > b) || (a < b);
 
-         bool c = (a < b) && (a < b);
-        bool d = (a > b) || (a > b);
+//          bool c = (a < b) && (a < b);
+//         bool d = (a > b) || (a > b);
        
-        Console.WriteLine(c);
-        Console.WriteLine(d);
+//         Console.WriteLine(c);
+//         Console.WriteLine(d);
         
 
-        Console.ReadLine();
-    }
-}
+//         Console.ReadLine();
+//     }
+// }
