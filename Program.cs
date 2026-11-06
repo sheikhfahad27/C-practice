@@ -412,10 +412,10 @@ class Program
         // bool d = (a > b) || (a < b);
 
          bool c = (a < b) && (a < b);
-        bool d = (a > b) || (a > b);
+        // bool d = (a > b) || (a > b);
        
         Console.WriteLine(c);
-        Console.WriteLine(d);
+        // Console.WriteLine(d);
         
 
         Console.ReadLine();
