@@ -439,8 +439,8 @@ class Program
         Console.WriteLine(c);
         Console.WriteLine(d);
         Console.WriteLine(e);
-        Console.WriteLine(f);
-        Console.WriteLine(g);
+        // Console.WriteLine(f);
+        // Console.WriteLine(g);
 
         Console.ReadLine();
     }
