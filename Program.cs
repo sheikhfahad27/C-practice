@@ -424,24 +424,4 @@ class Program
 
 
 
- class Program
-{
-
-    static void Main (string [] args)
-    {
-       int a = 10 , b = 5 , c , d , e ,f ,g;
-    c = a + b;
-    d = a - b;
-    e = a * b;
-    // f = a / b;
-    // g = a % b;
-
-        Console.WriteLine(c);
-        Console.WriteLine(d);
-        Console.WriteLine(e);
-        // Console.WriteLine(f);
-        // Console.WriteLine(g);
-
-        Console.ReadLine();
-    }
-}
+ 
