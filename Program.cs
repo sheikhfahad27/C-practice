@@ -433,8 +433,8 @@ class Program
     c = a + b;
     d = a - b;
     e = a * b;
-    f = a / b;
-    g = a % b;
+    // f = a / b;
+    // g = a % b;
 
         Console.WriteLine(c);
         Console.WriteLine(d);
