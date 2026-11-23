@@ -397,30 +397,30 @@
 //AND Operator (&&)//
 // OR Operator (||)//
 
-// class Program
-// {
+class Program
+{
 
-//     static void Main (string [] args)
-//     {
-//         int a = 40;
-//         int b = 30;
+    static void Main (string [] args)
+    {
+        int a = 40;
+        int b = 30;
 
-//         // bool c = (a > b) && (a < b);
-//         // bool d = (a > b) || (a < b);
+        // bool c = (a > b) && (a < b);
+        // bool d = (a > b) || (a < b);
 
-//         bool c = (a > b) && (a > b);
-//         bool d = (a > b) || (a < b);
+        bool c = (a > b) && (a > b);
+        bool d = (a > b) || (a < b);
 
         //  bool c = (a < b) && (a < b);
         // bool d = (a > b) || (a > b);
        
-//         Console.WriteLine(c);
-//         Console.WriteLine(d);
+        Console.WriteLine(c);
+        Console.WriteLine(d);
         
 
-//         Console.ReadLine();
-//     }
-// }
+        Console.ReadLine();
+    }
+}
 
 
 
@@ -439,8 +439,8 @@
         Console.WriteLine(c);
         Console.WriteLine(d);
         Console.WriteLine(e);
-        // Console.WriteLine(f);
-        // Console.WriteLine(g);
+        Console.WriteLine(f);
+        Console.WriteLine(g);
 
         Console.ReadLine();
     }
